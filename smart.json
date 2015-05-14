@@ -1,0 +1,9 @@
+{
+	"name": "dagre-d3",
+	"description": "D3-based renderer for Dagre",
+	"homepage": "https://github.com/perak/dagre-d3",
+	"author": "Petar Korponaic",
+	"version": "1.0.0",
+	"git": "https://github.com/perak/dagre-d3.git",
+	"packages": {}
+}
