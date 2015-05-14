@@ -14,6 +14,8 @@ Package.onUse(function (api) {
 
 	api.use("d3");
 
-	api.add_files('lib/dagre-d3.js', "client");
 	api.export('dagreD3', "client");
+
+	api.add_files('lib/dagre-d3.js', "client");
+	api.add_files('export.js', "client");
 });
