@@ -1,6 +1,6 @@
 Package.describe({
 	summary: "D3-based renderer for Dagre",
-	version: "1.0.2",
+	version: "1.0.3",
 	git: "https://github.com/perak/dagre-d3.git"
 });
 
@@ -14,6 +14,6 @@ Package.onUse(function (api) {
 
 	api.use("d3");
 
-	api.add_files('dagre-d3/dist/dagre-d3.js', "client");
+	api.add_files('lib/dagre-d3.js', "client");
 	api.export('dagreD3', "client");
 });
