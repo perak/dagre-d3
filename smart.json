@@ -3,7 +3,7 @@
 	"description": "D3-based renderer for Dagre",
 	"homepage": "https://github.com/perak/dagre-d3",
 	"author": "Petar Korponaic",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"git": "https://github.com/perak/dagre-d3.git",
 	"packages": {}
 }
